@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+</head>
+<body>
+
+    <h1 align="center">PORTFOLIO & BIODATA DIRI</h1>
+    <hr width="50%">
+    <br>
+
+    <!-- Tabel Utama untuk Tata Letak -->
+    <table align="center" border="0" cellpadding="15" cellspacing="0" width="80%">
+        <tr>
+            <!-- ================= KONTEN KIRI: BIODATA ================= -->
+            <td align="center" valign="top" width="35%" bgcolor="#f9f9f9">
+                <!-- Foto Profil -->
+                <img src="img/profile-juli.jpg" alt="Foto Profil" width="150" height="180">
+                <h3>Juli Herman Lase</h3>
+                <p><i>Web Developer / S1-Informatika</i></p>
+                <hr width="80%">
+
+                <h4 align="left">Informasi Pribadi</h4>
+                <table border="0" cellpadding="4" cellspacing="0" width="100%">
+                    <tr>
+                        <td width="40%"><b>Tempat, Tanggal Lahir</b></td>
+                        <td>: Lasara, 09 Juli 2004</td>
+                    </tr>
+                    <tr>
+                        <td><b>Jenis Kelamin</b></td>
+                        <td>: Laki-laki</td>
+                    </tr>
+                    <tr>
+                        <td><b>Email</b></td>
+                        <td>: juli@gmail.com</td>
+                    </tr>
+                </table>
+
+                <br>
+                <h4 align="left">Keahlian</h4>
+                <ul align="left">
+                    <li>HTML Dasar & Lanjutan</li>
+                    <li>Form Interaktif</li>
+                    <li>Struktur Web</li>
+                </ul>
+
+                <br>
+                <h4 align="left">Media Sosial</h4>
+                <p align="left">
+                    <a href="https://instagram.com" target="_blank">Instagram</a> | 
+                    <a href="https://github.com" target="_blank">GitHub</a>
+                </p>
+            </td>
+
+            <td width="5%"></td>
+
+            <!-- ================= KONTEN KANAN: TENTANG & FORM ================= -->
+            <td valign="top" width="60%">
+                
+                <h2>Tentang Saya</h2>
+                <p>
+                    Halo! Saya adalah seseorang yang memiliki ketertarikan besar di bidang teknologi, 
+                    pemrograman, dan pembuatan situs web. Senang mempelajari hal-hal baru dan 
+                    mengembangkan keterampilan secara mandiri.
+                </p>
+
+                <br>
+                <hr>
+                <br>
+
+                <h2>Kirim Pesan kepada Saya</h2>
+                <p>Silakan isi form di bawah ini jika ingin terhubung atau bekerja sama:</p>
+
+                <form action="#" method="POST">
+                    
+                    <label for="pengirim">Nama Anda:</label><br>
+                    <input type="text" id="pengirim" name="pengirim" placeholder="Masukkan nama Anda" size="40" required><br><br>
+
+                    <label for="email-pengirim">Email Anda:</label><br>
+                    <input type="email" id="email-pengirim" name="email_pengirim" placeholder="contoh@email.com" size="40" required><br><br>
+
+                    <label for="keperluan">Keperluan:</label><br>
+                    <select id="keperluan" name="keperluan">
+                        <option value="">-- Pilih Keperluan --</option>
+                        <option value="kolaborasi">Kolaborasi Projek</option>
+                        <option value="pertanyaan">Pertanyaan / Konsultasi</option>
+                        <option value="lainnya">Lainnya</option>
+                    </select><br><br>
+
+                    <label for="pesan">Pesan:</label><br>
+                    <textarea id="pesan" name="pesan" rows="5" cols="45" placeholder="Tuliskan pesan Anda di sini..."></textarea><br><br>
+
+                    <button type="submit">Kirim Pesan</button>
+                    <button type="reset">Reset Form</button>
+
+                </form>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
